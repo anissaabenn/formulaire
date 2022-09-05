@@ -1,0 +1,37 @@
+/* table {
+    border: rebeccapurple solid 5px;
+}
+td {
+    color : black;
+    font-weight: 900;
+} */
+
+form {
+    text-align: center;
+    background-color: #fff0f5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    padding: 20px;
+    border: black solid 1px;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+  }
+
+  td, th {
+    border: 5px solid red;
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #d31f1f;
+  }

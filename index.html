@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Exercices FORM</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+  <form>
+    <h1>FORMULAIRE D'INSCRIPTION</h1>
+    <label>Nom : </label>
+    <input id="Fname" type="text" placeholder="Payet" pattern=".{8,}" title="8 or more characters" required/><br>
+    <col><label>Prénom : </label>
+    <input id="Lname" type="text" placeholder="Dimitri" required><br>
+    <label>Date de naissance : </label>
+    <input id="Birthday" type="date" required><br>
+    <label>Adresse postale : </label>
+    <input id="Adress" type="text" placeholder="15 avenue de la mer" required><br>
+    <label>Numéro de téléphone : </label>
+    <input id="PhoneNumber" type="text" placeholder="0606060606" required><br>
+    <label>Adresse e-mail : </label>
+    <input id="Email" type="email" placeholder="votreadresse@email.fr" required><br>
+    <label>Mot de passe : </label>
+    <input id="Password" type="password" placeholder="Choisissez un mot de passe" required><br>
+    <label>Type de contrat : </label>
+    <select id="Contrat">
+      <option disabled selected>Choisissez</option>
+      <option>CDD</option>
+      <option>CDI</option>
+    </select>
+    <br>
+    <label>Date d'entrée en entreprise : </label>
+    <input id="Old" type="select" type="text" placeholder="07/06/2022" required><br>
+    <button id="send" type="submit">Envoyer</button></div>
+  </form>
+
+  <table> </table>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous">
+  </script>
+  <script src="style2.js"></script>
+</body>
+
+</html>
